@@ -14,7 +14,7 @@ const center = {
 function MyComponent() {
   return (
     <LoadScript
-      /* googleMapsApiKey={process.env.REACT_APP_GOOGLE_API_KEY} */
+     // googleMapsApiKey={process.env.API_KEY}
       googleMapsApiKey='AIzaSyCYhwBqMdTCuZ8Bic1BWmA3EwzBZm2POpU'
     >
       <GoogleMap
